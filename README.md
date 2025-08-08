@@ -1,6 +1,6 @@
 # Gatekeeper
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/jasonkwh/gatekeeper.svg)](https://pkg.go.dev/github.com/jasonkwh/gatekeeper)
+[![Lint](https://github.com/jasonkwh/gatekeeper/actions/workflows/lint.yml/badge.svg)](https://github.com/jasonkwh/gatekeeper/actions/workflows/lint.yml)
 
 Gatekeeper is a Go library that provides gRPC interceptors for validating incoming requests. It allows you to easily add validation to your gRPC services by checking for a `Validate()` method on your request messages.
 
